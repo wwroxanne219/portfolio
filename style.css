@@ -1,0 +1,48 @@
+/* This sets the overall vibe of the page */
+body {
+    background-color: #fafafa; /* A very light, luxury off-white */
+    color: #333;               /* Dark grey text (easier to read than pure black) */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;          /* Prevents text from stretching too wide */
+    padding: 40px 20px;
+}
+
+/* Styling your main heading */
+h1 {
+    font-size: 2.5rem;
+    letter-spacing: -1px;      /* Tighter spacing for a "hype" look */
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+/* Styling subheaders */
+h2 {
+    color: #555;
+    margin-top: 30px;
+    text-transform: uppercase; /* Makes it look like a fashion editorial */
+    font-size: 1.2rem;
+}
+
+/* Making your image look clean */
+img {
+    border-radius: 8px;        /* Softens the edges */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a subtle "float" effect */
+    margin: 20px 0;
+    max-width: 100%;           /* Ensures it doesn't break on mobile */
+}
+
+/* Styling your links */
+a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff4757;            /* Changes color when you hover over it */
+    border-bottom: 1px solid #ff4757;
+}
