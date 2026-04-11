@@ -50,3 +50,8 @@ a:hover {
 nav {
     display: flex;
 }
+
+nav ul,
+nav li {
+    display: contents;
+}
