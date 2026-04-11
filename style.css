@@ -72,3 +72,16 @@ nav {
 nav a.current {
     border-bottom: 0.4em solid #ccc;
 }
+
+:root {
+    --color-accent: #ff4757;
+}
+
+html {
+    accent-color: var(--color-accent);
+}
+
+nav a:hover {
+    border-bottom: 0.4em solid var(--color-accent);
+    background-color: #fff0f2;
+}
