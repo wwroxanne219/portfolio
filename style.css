@@ -85,3 +85,9 @@ nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
     background-color: #fff0f2;
 }
+
+input,
+textarea,
+button {
+    font: inherit;
+}
