@@ -63,3 +63,8 @@ nav a {
     text-align: center;
     padding: 0.5em;
 }
+
+nav {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
