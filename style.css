@@ -91,3 +91,8 @@ textarea,
 button {
     font: inherit;
 }
+
+label {
+    display: block;
+    margin-block: 1em;
+}
