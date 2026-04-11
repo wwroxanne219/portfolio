@@ -68,3 +68,7 @@ nav {
     margin-bottom: 1rem;
     border-bottom: 1px solid #ccc;
 }
+
+nav a.current {
+    border-bottom: 0.4em solid #ccc;
+}
