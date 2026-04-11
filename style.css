@@ -1,12 +1,12 @@
 /* This sets the overall vibe of the page */
 body {
-    background-color: #fafafa; /* A very light, luxury off-white */
-    color: #333;               /* Dark grey text (easier to read than pure black) */
+    background-color: #fafafa;
+    color: #333;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
-    margin: 0 auto;
-    max-width: 800px;          /* Prevents text from stretching too wide */
-    padding: 40px 20px;
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 1rem;
 }
 
 /* Styling your main heading */
