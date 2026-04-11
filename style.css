@@ -46,3 +46,7 @@ a:hover {
     color: #ff4757;            /* Changes color when you hover over it */
     border-bottom: 1px solid #ff4757;
 }
+
+nav {
+    display: flex;
+}
