@@ -1,7 +1,7 @@
 /* This sets the overall vibe of the page */
 body {
-    background-color: #fafafa;
-    color: #333;
+    background-color: canvas;
+    color: canvastext;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.6;
     max-width: 100ch;
@@ -12,8 +12,8 @@ body {
 /* Styling your main heading */
 h1 {
     font-size: 2.5rem;
-    letter-spacing: -1px;      /* Tighter spacing for a "hype" look */
-    border-bottom: 2px solid #000;
+    letter-spacing: -1px;
+    border-bottom: 2px solid currentColor;
     padding-bottom: 10px;
 }
 
@@ -21,21 +21,21 @@ h1 {
 h2 {
     color: #555;
     margin-top: 30px;
-    text-transform: uppercase; /* Makes it look like a fashion editorial */
+    text-transform: uppercase;
     font-size: 1.2rem;
 }
 
 /* Making your image look clean */
 img {
-    border-radius: 8px;        /* Softens the edges */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Adds a subtle "float" effect */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     margin: 20px 0;
-    max-width: 100%;           /* Ensures it doesn't break on mobile */
+    max-width: 100%;
 }
 
 /* Styling your links */
 a {
-    color: #000;
+    color: inherit;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 1px solid #ccc;
@@ -43,12 +43,23 @@ a {
 }
 
 a:hover {
-    color: #ff4757;            /* Changes color when you hover over it */
+    color: #ff4757;
     border-bottom: 1px solid #ff4757;
+}
+
+:root {
+    --color-accent: #ff4757;
+}
+
+html {
+    color-scheme: light dark;
+    accent-color: var(--color-accent);
 }
 
 nav {
     display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
 }
 
 nav ul,
@@ -64,31 +75,20 @@ nav a {
     padding: 0.5em;
 }
 
-nav {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid #ccc;
-}
-
 nav a.current {
-    border-bottom: 0.4em solid #ccc;
-}
-
-:root {
-    --color-accent: #ff4757;
-}
-
-html {
-    accent-color: var(--color-accent);
+    border-bottom: 0.4em solid #666;
+    padding-bottom: 0.1em;
 }
 
 nav a:hover {
     border-bottom: 0.4em solid var(--color-accent);
-    background-color: #fff0f2;
+    background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 }
 
 input,
 textarea,
-button {
+button,
+select {
     font: inherit;
 }
 
@@ -127,4 +127,11 @@ form button {
 
 .projects h2 {
     margin: 0;
+}
+
+.color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 80%;
 }
