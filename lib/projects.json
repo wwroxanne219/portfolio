@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Project 1",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 2",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Project 3",
+      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]

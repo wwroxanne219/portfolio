@@ -135,3 +135,16 @@ form button {
     right: 1rem;
     font-size: 80%;
 }
+
+#profile-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  #profile-stats p {
+    background: #f5f5f5;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+  }
