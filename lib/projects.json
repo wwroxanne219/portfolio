@@ -1,17 +1,26 @@
 [
-    {
-      "title": "Project 1",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "title": "Project 2",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
-      "title": "Project 3",
-      "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
-  ]
+  {
+    "title": "Project 1",
+    "image": "images/placeholder.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "year": 2024
+  },
+  {
+    "title": "Project 2",
+    "image": "images/placeholder.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "year": 2025
+  },
+  {
+    "title": "Project 3",
+    "image": "images/placeholder.png",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "year": 2025
+  },
+  {
+    "title": "Lab 5",
+    "image": "images/placeholder.png",
+    "description": "A D3 bar chart showing projects by year.",
+    "year": 2026
+  }
+]
