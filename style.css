@@ -148,3 +148,34 @@ form button {
     border-radius: 12px;
     text-align: center;
   }
+
+  .tooltip {
+    position: fixed;
+    background: white;
+    border: 1px solid #999;
+    border-radius: 8px;
+    padding: 0.75rem;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 20%);
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  .tooltip dt {
+    font-weight: bold;
+  }
+  
+  .tooltip dd {
+    margin: 0 0 0.5rem 0;
+  }
+
+  circle.selected {
+    fill: orange;
+    stroke: black;
+    stroke-width: 2px;
+  }
+  
+  .brush .selection {
+    fill: steelblue;
+    fill-opacity: 0.2;
+    stroke: steelblue;
+  }
